@@ -1,34 +1,3 @@
-
-* {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  background-color: coral;
-
-}
-
-table, th, td {
-  padding: 10px;
-  text-align: left;
-  border-bottom: 1px solid black;
-  border: 1px solid black;
-}
-
-tr:hover {background-color: yellow;}
-
-
-@font-face {
-	font-family: 'icomoon';
-	src:url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.eot');
-	src:url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.woff') format('woff'),
-		url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.ttf') format('truetype'),
-		url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.svg#icomoon') format('svg');
-}
 body {
 	margin: 0;
   background-image: url("../img/fondo.jpg");
@@ -129,4 +98,37 @@ ul {
 .flyout:hover a,
 .flyout-nav {
   background: #395066;
+}
+
+
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: coral;
+
+}
+
+table, th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid black;
+  border: 1px solid black;
+}
+
+tr:hover {background-color: yellow;}
+
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.eot');
+	src:url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.woff') format('woff'),
+		url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.ttf') format('truetype'),
+		url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.svg#icomoon') format('svg');
 }
