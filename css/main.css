@@ -187,3 +187,17 @@ a {
 a:hover {
   color: #fff;
 }
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.video-container iframe {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
