@@ -1,16 +1,23 @@
-body {
-	margin: 0;
-  background-image: url("../img/fondo.jpg");
-	
-	color: #fff;
-	font-family: sans-serif;
-	line-height: 1.5;
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  background-image: url("../img/fondo.jpg");
+  color: #fff;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
 ul {
   list-style: none;
   padding: 0;
-  margin: 0; 
+  margin: 0;
 }
+
+/* Estilos de la cabecera */
 .main-header {
   margin: auto;
   width: 75%;
@@ -19,58 +26,56 @@ ul {
   border: 2px solid #2675a9;
   border-top: none;
   border-radius: 0 0 5px 5px;
-	background: rosybrown;
+  background: rosybrown;
 }
-  .main-header:after {
-    content: " ";
-    display: table;
-    clear: both;
-  }
+
+.main-header:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
 .logo {
-	display: block;
-	text-decoration: none;
+  display: block;
+  text-decoration: none;
   float: left;
   margin-top: 5px;
 }
-  .logo::before {
-    color: #fff;
-    content: "\e001";
-    font-weight: normal;
-    font-style: normal;
-    font-size: 2.5em;
-    font-family: "icomoon";
-    -webkit-font-smoothing: antialiased;
-  }
 
-/* Nav Demo Styles -------------------- */
-
+/* Estilos de navegación */
 .main-nav,
 .drop-nav {
   background: #2c3e50;
 }
+
 .main-nav {
   float: right;
   border-radius: 4px;
   margin-top: 8px;
   border: solid 1px #1e2a36;
 }
-  .main-nav > li {
-    float: left;
-    border-left: solid 1px #1e2a36;
-  }
-  .main-nav li:first-child {
-    border-left: none;
-  }
-  .main-nav a {
-    color: #fff;
-    display: block;
-    padding: 10px 30px;
-    text-decoration: none;
-  }
+
+.main-nav > li {
+  float: left;
+  border-left: solid 1px #1e2a36;
+}
+
+.main-nav li:first-child {
+  border-left: none;
+}
+
+.main-nav a {
+  color: #fff;
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
 .dropdown,
 .flyout {
   position: relative;
 }
+
 .dropdown:after {
   content: "\25BC";
   font-size: .5em;
@@ -79,39 +84,37 @@ ul {
   top: 38%;
   right: 12%;
 }
+
 .drop-nav,
 .flyout-nav {
   position: absolute;
   display: none;
 }
+
 .drop-nav li {
   border-bottom: 1px solid rgba(255,255,255,.2);
 }
+
 .dropdown:hover > .drop-nav,
 .flyout:hover > .flyout-nav {
   display: block;
 }
+
 .flyout-nav {
   left: 100%;
   top: 0;
 }
+
 .flyout:hover a,
 .flyout-nav {
   background: #395066;
 }
 
-
-
-* {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
+/* Estilos de tablas (aunque aún no usaste una tabla en el HTML) */
 table {
   border-collapse: collapse;
   width: 100%;
   background-color: coral;
-
 }
 
 table, th, td {
@@ -121,14 +124,16 @@ table, th, td {
   border: 1px solid black;
 }
 
-tr:hover {background-color: yellow;}
+tr:hover {
+  background-color: yellow;
+}
 
-
+/* Fuente personalizada para íconos */
 @font-face {
-	font-family: 'icomoon';
-	src:url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.eot');
-	src:url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.woff') format('woff'),
-		url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.ttf') format('truetype'),
-		url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.svg#icomoon') format('svg');
+  font-family: 'icomoon';
+  src: url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.eot');
+  src: url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+       url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.woff') format('woff'),
+       url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.ttf') format('truetype'),
+       url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/stage-13/fonts/icomoon.svg#icomoon') format('svg');
 }
