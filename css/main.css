@@ -120,3 +120,30 @@ footer {
   font-size: 0.8em;
   color: #ccc;
 }
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.galeria img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+.galeria-titulo {
+  text-align: center;
+  font-size: 2.5em;
+  color: #00d9ff;
+  margin-top: 100px;
+}
