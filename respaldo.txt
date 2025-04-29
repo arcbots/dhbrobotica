@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DHB Robótica</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+      color: #00d9ff;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 800px;
+    }
+    footer {
+      margin-top: auto;
+      font-size: 0.8em;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>DHB Robótica</h1>
+  <p>Bienvenido a DHB Robótica, un espacio donde la programación, la robótica, las criptomonedas y la innovación educativa se unen.
+     Aquí construimos el futuro combinando la tecnología con la creatividad, inspirando a la próxima generación de innovadores.
+  </p>
+  <img src="img/arcbotssmall.JPG" alt="Logo DHB Robótica">
+  <button onclick="saludar()">Saludar</button>
+  <footer>
+    &copy; 2025 DHB Robótica - Creado con pasión por la tecnología y la educación.
+  </footer>
+  <!-- Enlace al archivo JavaScript externo -->
+  <script src="js/main.js"></script>
+</body>
+</html>
