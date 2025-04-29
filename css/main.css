@@ -158,9 +158,10 @@ table {
   border-collapse: collapse;
   background-color: #111;
   color: #00d9ff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  border: 2px solid #00d9ff;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
 }
 
 thead {
@@ -171,7 +172,7 @@ thead {
 th, td {
   padding: 15px;
   text-align: left;
-  border-bottom: 1px solid #333;
+  border: 1px solid #00d9ff;
 }
 
 tr:hover {
