@@ -201,3 +201,58 @@ a:hover {
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.4);
 }
+.descripcion-proyecto {
+  max-width: 900px;
+  margin: 40px auto;
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #fff;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+.equipo {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.equipo h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #00d9ff;
+  margin-bottom: 40px;
+}
+
+.miembros {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.miembro {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.miembro img {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #00d9ff;
+}
+
+.miembro h3 {
+  color: #00d9ff;
+  margin-bottom: 10px;
+}
+
+.miembro p {
+  color: #ddd;
+}
+
