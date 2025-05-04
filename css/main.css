@@ -258,7 +258,7 @@ a:hover {
 .slider-container {
   width: 100%;
   max-width: 800px;
-  margin: 20px auto;
+  margin: 20px auto; /* ✅ Esto centra el slider horizontalmente */
   overflow: hidden;
   position: relative;
   aspect-ratio: 16 / 9;
