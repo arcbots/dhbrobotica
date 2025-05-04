@@ -261,8 +261,9 @@ a:hover {
   max-width: 800px;
   margin: 20px auto; /* ✅ Esto centra el slider horizontalmente */
   overflow: hidden;
-  position: relative;
+  position:relative ;
   aspect-ratio: 16 / 9;
+  margin: 20px auto;
 }
 
 .slider-track {
