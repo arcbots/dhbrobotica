@@ -296,3 +296,10 @@ a:hover {
   99%  { transform: translateX(-200%); }
   100% { transform: translateX(0%); }
 }
+audio {
+  display: block;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+}
