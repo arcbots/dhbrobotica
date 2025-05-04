@@ -263,6 +263,9 @@ a:hover {
   overflow: hidden;
   position: relative;
   aspect-ratio: 16 / 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slider-track {
