@@ -255,4 +255,30 @@ a:hover {
 .miembro p {
   color: #ddd;
 }
+.slider {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
 
+.slides {
+  display: flex;
+  width: 300%;
+  animation: slideAnimation 9s infinite;
+}
+
+.slides img {
+  width: 100%;
+  flex: 1 0 100%;
+  object-fit: cover;
+}
+
+@keyframes slideAnimation {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(-100%); }
+  66% { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
+}
