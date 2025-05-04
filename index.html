@@ -4,48 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DHB Robótica</title>
-  <!-- Enlace al CSS externo -->
   <link rel="stylesheet" href="css/main.css">
-    <script src="js/main.js"></script>
-
+  <script src="js/main.js"></script>
 </head>
-  <nav>
-  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-  <ul id="menu">
-    <li><a href="#home">Inicio</a></li>
-    <li><a href=acercadelproyecto.html>Acerca del Proyecto</a></li>
-    <li><a href=recursos.html>Recursos</a></li>
-    <li><a href=galeria.html>Galería</a></li>
-    <li><a href=dhbrobotica2023.html>Evento DHB Robótica 2023</a></li>
-    <li><a href="#kit">Kit Liceo Laboratorio</a></li>
-    <li><a href="#ucr">Proyecto UCR</a></li>
-  </ul>
-</nav>
 <body>
+  <nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul id="menu">
+      <li><a href="#home">Inicio</a></li>
+      <li><a href="acercadelproyecto.html">Acerca del Proyecto</a></li>
+      <li><a href="recursos.html">Recursos</a></li>
+      <li><a href="galeria.html">Galería</a></li>
+      <li><a href="dhbrobotica2023.html">Evento DHB Robótica 2023</a></li>
+      <li><a href="#kit">Kit Liceo Laboratorio</a></li>
+      <li><a href="#ucr">Proyecto UCR</a></li>
+    </ul>
+  </nav>
 
-  <h1>DHB Robótica</h1>
-  <p>Bienvenido a DHB Robótica, un espacio donde la programación, la robótica, las criptomonedas y la innovación educativa se unen.
-     Aquí construimos el futuro combinando la tecnología con la creatividad, inspirando a la próxima generación de innovadores.
-  </p>
-  <div class="slider-container">
-  <div class="slider-track">
-    <div class="slide"><img src="img/roboucr.jpg" alt="Foto 1"></div>
-    <div class="slide"><img src="img/reglas.png" alt="Foto 2"></div>
-    <div class="slide"><img src="img/roboucr.jpg" alt="Foto 3"></div>
-  </div>
+  <main class="contenido-principal">
+    <h1>DHB Robótica</h1>
+    <p>
+      Bienvenido a DHB Robótica, un espacio donde la programación, la robótica,
+      las criptomonedas y la innovación educativa se unen. Aquí construimos el futuro
+      combinando la tecnología con la creatividad, inspirando a la próxima generación de innovadores.
+    </p>
 
+    <div class="slider-container">
+      <div class="slider-track">
+        <div class="slide"><img src="img/roboucr.jpg" alt="Foto 1"></div>
+        <div class="slide"><img src="img/reglas.png" alt="Foto 2"></div>
+        <div class="slide"><img src="img/roboucr.jpg" alt="Foto 3"></div>
+      </div>
+    </div>
 
+    <button onclick="saludar()">Saludar</button>
 
- <!--   <img src="img/roboucr.jpg" alt="Logo DHB Robótica">
-  <button onclick="saludar()">Saludar</button>-->
-  <footer>
-    &copy; 2025 DHB Robótica - Creado con pasión por la tecnología y la educación.Derechos Reservados Lic. Rodrigo Arce Campos
-    
-  </footer>
-  <!-- Enlace al archivo JavaScript externo -->
-  <audio id="bg-music" autoplay controls loop>
-  <source src="media/atlantis.mp3" type="audio/mp3">
-  Tu navegador no soporta el audio HTML5.
-</audio>
+    <footer>
+      &copy; 2025 DHB Robótica - Creado con pasión por la tecnología y la educación.
+      Derechos Reservados Lic. Rodrigo Arce Campos
+    </footer>
+
+    <audio id="bg-music" autoplay controls loop>
+      <source src="media/atlantis.mp3" type="audio/mp3">
+      Tu navegador no soporta el audio HTML5.
+    </audio>
+  </main>
 </body>
 </html>
