@@ -1,10 +1,3 @@
-.contenido-principal {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
 nav {
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
@@ -84,12 +77,9 @@ body {
   flex-direction: column;
   min-height: 100vh;
   align-items: center;
+  justify-content: center;
   text-align: center;
   padding: 0px;
-  height: 100vh;
-  display: flex;
-  justify-content: center;  /* Centra horizontalmente */
-  align-items: center;      /* Centra verticalmente */
 }
 
 h1 {
@@ -271,9 +261,8 @@ a:hover {
   max-width: 800px;
   margin: 20px auto; /* ✅ Esto centra el slider horizontalmente */
   overflow: hidden;
-  position:relative ;
+  position: relative;
   aspect-ratio: 16 / 9;
-  margin: 20px auto;
 }
 
 .slider-track {
