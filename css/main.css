@@ -255,36 +255,40 @@ a:hover {
 .miembro p {
   color: #ddd;
 }
-.slider {
-  position: relative;
+.slider-container {
   width: 100%;
   max-width: 800px;
-  aspect-ratio: 16 / 9; /* Mantiene relación de aspecto y es responsive */
-  overflow: hidden;
   margin: 20px auto;
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 16 / 9;
 }
 
-.slide-track {
+.slider-track {
   display: flex;
-  width: 300%; /* 3 imágenes */
-  height: 100%;
-  animation: slide 9s infinite;
+  width: 300%;
+  animation: autoSlide 9s infinite;
 }
 
 .slide {
   width: 100%;
   flex-shrink: 0;
-  object-fit: cover;
-  height: 100%;
 }
 
-/* Animación */
-@keyframes slide {
-  0% { transform: translateX(0%); }
-  33% { transform: translateX(0%); }
-  36% { transform: translateX(-100%); }
-  66% { transform: translateX(-100%); }
-  69% { transform: translateX(-200%); }
-  99% { transform: translateX(-200%); }
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Animación automática */
+@keyframes autoSlide {
+  0%   { transform: translateX(0%); }
+  33%  { transform: translateX(0%); }
+  36%  { transform: translateX(-100%); }
+  66%  { transform: translateX(-100%); }
+  69%  { transform: translateX(-200%); }
+  99%  { transform: translateX(-200%); }
   100% { transform: translateX(0%); }
 }
