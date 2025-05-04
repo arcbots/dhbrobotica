@@ -1,3 +1,10 @@
+.contenido-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 nav {
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
