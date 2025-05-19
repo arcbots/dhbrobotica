@@ -303,3 +303,14 @@ audio {
   border-radius: 10px;
   padding: 10px;
 }
+.tablas-lado-a-lado {
+  display: flex;
+  gap: 40px; /* Espacio entre las tablas */
+  justify-content: center;
+  flex-wrap: wrap; /* Que bajen si no caben en pantallas pequeñas */
+}
+
+.tablas-lado-a-lado .tabla-recursos {
+  flex: 1 1 45%; /* Que cada tabla ocupe hasta 45% del ancho disponible */
+  min-width: 300px; /* Para que no se vuelvan demasiado pequeñas */
+}
